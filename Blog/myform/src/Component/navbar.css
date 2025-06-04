@@ -1,0 +1,31 @@
+
+nav {
+    background-color: rgb(197, 196, 196); /* Navbar background color */
+    padding: 10px 20px; /* Padding around the navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  nav ul {
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Horizontal layout */
+    justify-content: center; /* Center the nav items */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  nav li {
+    margin: 0 20px; /* Space between nav items */
+  }
+  
+  nav a {
+    text-decoration: none; /* Remove underline */
+    color: white; /* Text color */
+    padding: 10px 15px; /* Padding for button-like appearance */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  nav a:hover {
+    background-color: #0056b3; /* Darker background on hover */
+    color: white; /* Text color on hover */
+  }
